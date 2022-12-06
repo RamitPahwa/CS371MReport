@@ -121,6 +121,8 @@ I was responsible for the following parts of the application, below I will be pr
     We wanted to show some informative images to improve user expierence while the use was registering in the application, to this, I used an Recycle view combined with animation to develop a infinite banner for the registration page. 
 
     This used OOPS concept to make it resuable by diffferent application. The below abstract class was created which can be implemented in you own class shown below to add infinite animation horizontal recycle view 
+
+    ![](https://github.com/RamitPahwa/CS371MReport/blob/main/gif.gif)
     ```java
     public abstract class AbsBannerAdapter {
     private final DataSetObservable mDataSetObservable = new DataSetObservable();
