@@ -242,4 +242,12 @@ I was responsible for the following parts of the application, below I will be pr
     ```
 - Github 
 
-    I was also responsible for mainting the version control for out application, we developed different features in different branch 
+    I was also responsible for mainting the version control for out application, we developed different features in different branch and tracked issues using the issues tab in github, images below 
+
+    ![](https://github.com/RamitPahwa/CS371MReport/blob/main/1.png)
+    ![](https://github.com/RamitPahwa/CS371MReport/blob/main/1.png)
+    ![](https://github.com/RamitPahwa/CS371MReport/blob/main/1.png)
+
+- Store Page 
+
+    I was also responsible for populating the store page my teammate created
