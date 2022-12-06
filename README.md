@@ -2,7 +2,7 @@
 
 This is an application for virtual trading of the stocks, maintaining a watchlist of stock. The applications Code base can be broadly classified as having the following parts :
 
-1. Backened Codebase
+1. Backend Codebase
     - Yahoo Finance API
     - Authentication Service using Firebase
     - Room Database for Storage
@@ -71,7 +71,7 @@ I was responsible for the following parts of the application, below I will be pr
     }
     }
     ```
-    These fecthed values required required a cache to maintained so we donot fetch values each time when we are using the application, instead fetch value only if the new value was not fetched within the last 1 minute. This allowed us to restrict the number of API calls were making, as we had restriction on the number of calls we can make to the FREE tier of the Yahoo finance API
+    These fetched values required a cache to be maintained so we do not fetch values each time when we are using the application, instead fetch values only if the new value was not fetched within the last 1 minute. This allowed us to restrict the number of API calls were making, as we had restriction on the number of calls we can make to the FREE tier of the Yahoo finance API
 
     ```kotlin
     object StockDataCache {
@@ -218,7 +218,7 @@ I was responsible for the following parts of the application, below I will be pr
 
     ```
 
-    **Database class** This returns the syncrohonised version of the class so we only create one instance of the database per instance of the application.
+    **Database class** This returns the synchronized version of the class so we only create one instance of the database per instance of the application.
     ```kotlin
         @Database(entities = [PortfolioDataEntity::class], version = 1)
     abstract class PortfolioDatabase : RoomDatabase() {
@@ -242,7 +242,7 @@ I was responsible for the following parts of the application, below I will be pr
     ```
 - Github 
 
-    I was also responsible for mainting the version control for out application, we developed different features in different branch and tracked issues using the issues tab in github, images below 
+    I was also responsible for maintaining the version control for out application, we developed different features in different branch and tracked issues using the issues tab in github, images below 
 
     ![](https://github.com/RamitPahwa/CS371MReport/blob/main/1.png)
     ![](https://github.com/RamitPahwa/CS371MReport/blob/main/2.png)
